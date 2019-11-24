@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ma.easyrecover.ara">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+
+    <application
+        android:name="ma.easyrecover.ara.share.MainApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="ma.easyrecover.ara.activity.PrivacyPolicyActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="ma.easyrecover.ara.activity.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ma.easyrecover.ara.activity.ContactActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ma.easyrecover.ara.activity.VideoFolderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ma.easyrecover.ara.activity.VideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ma.easyrecover.ara.activity.FolderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ma.easyrecover.ara.activity.ListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ma.easyrecover.ara.activity.VideoListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ma.easyrecover.ara.activity.ImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ma.easyrecover.ara.activity.MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

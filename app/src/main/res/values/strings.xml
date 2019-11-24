@@ -1,0 +1,42 @@
+<resources>
+
+    <string name="app_name">استعادة الصور المحذوفة</string>
+
+    <string name="please_wait">من فضلك انتظر...</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="number_text">الصور المكتشفة:</string>
+    <string name="image">الصور</string>
+    <string name="no_image">لم يتم العثور على صورة!</string>
+
+    <string name="no_video">لم يتم العثور على فيديو!</string>
+    <string name="number_video">الفيديوهات المكتشفة:</string>
+
+    <string name="video">فيديوهات</string>
+    <string name="back">Back</string>
+
+    <string name="select_all">تحديد الكل</string>
+
+    <string name="deselect_all">الغاء تحديد الكل</string>
+
+    <string name="delete_toast">الملفات المحذوفة</string>
+
+    <string name="restore_toast">Restore %1$s file(s) to %2$s files(s) Remain</string>
+
+    <string name="all">الكل</string>
+    <string name="deleted">تم الحذف</string>
+
+    <string name="no_all_contacts">لم يتم ايجاد ارقام.</string>
+
+    <string name="contact_not_restore">"لا يمكن استعادة الارقام بنجاح"</string>
+    <string name="contact_restore_success">استعادة الارقام بنجاح</string>
+
+    <string name="no_deleted_contacts">الارقام المحذوفة غير موجودة.</string>
+
+    <string name="allcontact_restore_success">استعادة كل الارقام بنجاح</string>
+
+    <string name="allcontact_not_restore">"لا يمكن استعادة الارقام بنجاح"</string>
+
+</resources>

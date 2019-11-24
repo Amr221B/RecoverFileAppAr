@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ld_activityScreenTitles">
+
+        <item>تقييم التطبيق</item>
+        <item>مشاركة التطبيق</item>
+        <item>راسلنا</item>
+        <item>سياسة الخصوصية</item>
+
+    </string-array>
+
+    <array name="ld_activityScreenIcons">
+
+        <item>@drawable/rateus</item>
+        <item>@drawable/share</item>
+        <item>@drawable/contactus</item>
+        <item>@drawable/privecy</item>
+
+    </array>
+
+</resources>
